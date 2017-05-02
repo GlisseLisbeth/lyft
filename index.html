@@ -55,19 +55,19 @@
           <span>SIGN UP TO DRIVE WITH LYFT.</span>
         </div>
         <div class="phone">
-          <input type="text" placeholder="Phone number">
+          <input type="text" placeholder="Phone number" pattern="^[9]\d{8}$"><img id="error-phone"src="assets/img/error.png" alt="" style="display:none;position: absolute;right: 70px;top: 180px; width:35px">
         </div>
         <div class="name" style="display:none">
-          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Name" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$"><img id="error-name"src="assets/img/error.png" alt="" style="display:none;position: absolute;right: 70px;top: 215px; width:35px">
         </div>
         <div class="email" style="display:none">
-          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"><img id="error-email"src="assets/img/error.png" alt="" style="display:none;position: absolute;right: 70px;top: 250px; width:35px">
         </div>
         <div class="city"  style="display:none">
-          <input type="text" placeholder="City">
+          <input type="text" placeholder="City" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$"><img id="error-city"src="assets/img/error.png" alt="" style="display:none;position: absolute;right: 70px;top: 285px; width:35px">
         </div>
         <div class="boton">
-          <button type="button" name="button">Become a driver</button>
+          <button id="btnEnviar" type="button" name="button">Become a driver</button>
           <a href="#">Sign up to ride</a>
         </div>
         <div class="terminos">
