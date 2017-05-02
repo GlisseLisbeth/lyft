@@ -1,0 +1,275 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat',Helvetica,Arial,'Lucida Grande',sans-serif;
+  background: #FEFEFC;
+}
+header{
+  position: relative;
+}
+nav{
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  height: 90px;
+  z-index: 1000;
+  margin-top: 0;
+  padding-top: 0px;
+  background: none;
+  transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+}
+
+nav .nav-image{
+  background-image: url("../img/homepage-hero-poster.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  background-size: cover;
+  height: 620%;
+}
+
+nav .nav-bar{
+  position: absolute;
+  margin: 25px 20px;
+}
+.logo{
+  width: 222px;
+  height: 74px;
+  text-align: left;
+}
+
+.image{
+  background-image: url(../img/logo-white.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 30% 65%;
+}
+
+.nav-background{
+  position: relative;
+  float: right;
+  margin: 35px 100px;
+}
+
+.nav-background ul{
+  list-style: none;
+}
+
+.nav-background ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 25px;
+}
+
+.nav-background ul li a.login{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.registro{
+  position: absolute;
+  right: 0;
+  top: 120%;
+  height: 450%;
+  width: 45%;
+  padding: 50px 70px;
+  background: #fff;
+  color: #352384;
+}
+.registro .title{
+  width: 60%;
+  margin-bottom: 5px;
+}
+.registro .title span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.registro .sub-title{
+  margin-bottom: 25px;
+}
+.registro .sub-title span{
+  font-size: 15px;
+  font-weight: bold;
+}
+.registro .phone,.registro .name, .registro .email, .registro .city{
+  margin-bottom: 10px;
+}
+.registro .phone input,.registro .name input, .registro .email input, .registro .city input{
+  display: block;
+  outline: 0;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #352384;
+  background: transparent;
+  text-align: left;
+  padding: 1px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.registro .phone input[placeholder='Phone number'],.registro .name input[placeholder='Name'],.registro .email input[placeholder='Email'],.registro .city input[placeholder='City']{
+  opacity: 0.8;
+}
+.registro .boton{
+  margin-bottom: 15px;
+}
+.registro .boton button{
+  color: #fff;
+  background: #FF00BF;
+  border: 1px solid #FF00BF;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.registro .boton a{
+  color: #7A879F;
+}
+
+.registro .terminos p{
+  color: #8592A7;
+  font-size: 9px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-stretch: condensed;
+}
+
+#informacion{
+  position: absolute;
+  background: linear-gradient(#76278f, #2B1E66);
+  width: 100%;
+  height: 163.5%;
+  margin-top: 34%;
+  padding-top: 10%;
+}
+.content-left{
+  position: relative;
+  float: left;
+  width: 50%;
+  color: white;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+.texto{
+  margin-bottom: 50px;
+}
+
+.title{
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+}
+.sub-title{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content-right{
+  position: relative;
+  float: right;
+  width: 50%;
+}
+#video{
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 100%;
+  margin-top: 84%;
+}
+.posicion-left{
+  float: left;
+}
+.posicion-right{
+  float: right;
+}
+.caja-texto{
+  position: relative;
+  width: 30%;
+  color: black;
+  padding-left: 20px;
+}
+.caja-texto h5,.caja-texto .title{
+  line-height: 0.8px;
+}
+.caja-video{
+  position: relative;
+  width: 70%;
+  color: white;
+  margin-top: -4px;
+}
+
+.video-a .caja-texto .parrafo, .video-b .caja-texto .parrafo, .video-c .caja-texto .parrafo{
+  margin-top: 25px;
+}
+
+iframe{
+  border: none;
+  width: 100%;
+}
+footer{
+  background: #333447;
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 2760px;
+}
+
+.footer-left{
+  position: absolute;
+  margin: 50px 200px;
+  text-align: left;
+  width: 60%
+}
+
+table {
+    width: 70%;
+}
+
+tr{
+  height: 50px;
+}
+
+.footer-right{
+  position: absolute;
+  margin: 100px 20px;
+  top: 0;
+  right: 0;
+  width: 35%;
+}
+
+.footer-right img{
+  display: block;
+  width: 25%;
+  margin-bottom: 40px;
+}
+
+.footer-center{
+  position: absolute;
+  bottom: 30%;
+  left: 30%;
+
+}
+
+.footer-center .redes-sociales{
+}
+
+.footer-center .redes-sociales span{
+  margin: 0 50px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.footer-center .copy{
+  margin: 0 50px;
+  border: none;
+}
